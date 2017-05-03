@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+module $1 exposing (${2:..})
+]]>
+  </content>
+  <description>ELM - module &lt;name&gt; = exposing (&lt;..&gt;)</description>
+
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>mod</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.elm</scope>
+</snippet>

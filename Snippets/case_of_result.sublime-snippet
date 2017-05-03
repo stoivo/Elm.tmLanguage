@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+case $1 of
+  Ok $2 ->
+    $3
+  Error ${4:error} ->
+    $5
+]]>
+  </content>
+  <description>ELM - case &lt;Result&gt; of Ok &lt;x&gt; -&gt; &lt;action&gt;</description>
+
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>cofr</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.elm</scope>
+</snippet>
