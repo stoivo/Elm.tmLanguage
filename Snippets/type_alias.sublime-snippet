@@ -1,15 +1,12 @@
 <snippet>
-  <content><![CDATA[
+	<content><![CDATA[
 type alias $1 =
-    { $2 : $3
-    , $4 : $5
-    }
+	{ $2 : $3
+${4:	, $5 : $6}
+	}
 ]]>
-  </content>
-  <description>ELM - type alias &lt;name&gt; = { &lt;key&gt; = &lt;type&gt;</description>
-
-  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>typea</tabTrigger>
-  <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>source.elm</scope>
+	</content>
+	<description>type alias (Record)</description>
+	<tabTrigger>typea</tabTrigger>
+	<scope>source.elm</scope>
 </snippet>

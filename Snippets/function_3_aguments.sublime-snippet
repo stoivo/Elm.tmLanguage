@@ -1,12 +1,10 @@
 <snippet>
-  <content><![CDATA[
+	<content><![CDATA[
 ${1:fn}: ${3:Int} -> ${4:Int} -> ${5:Int} -> ${2:Int}
 ${1:fn} ${6:a} ${7:b} ${8:c} =
-    ${9:-- body}
+	${9:-- body}
 ]]></content>
-  <description>ELM - function with tree argument</description>
-  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>fn3</tabTrigger>
-  <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>source.elm</scope>
+	<description>Function (a -> b -> c -> d)</description>
+	<tabTrigger>fn3</tabTrigger>
+	<scope>source.elm</scope>
 </snippet>

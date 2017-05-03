@@ -1,12 +1,9 @@
 <snippet>
-  <content><![CDATA[
+	<content><![CDATA[
 import $1${2: as $3}${4: exposing (${5:..})}
 ]]>
-  </content>
-  <description>ELM - import &lt;name&gt; as &lt;alias&gt;</description>
-
-  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>impas</tabTrigger>
-  <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>source.elm</scope>
+	</content>
+	<description>import … as</description>
+	<tabTrigger>impas</tabTrigger>
+	<scope>source.elm</scope>
 </snippet>

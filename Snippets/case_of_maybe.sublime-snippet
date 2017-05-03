@@ -1,16 +1,13 @@
 <snippet>
-  <content><![CDATA[
+	<content><![CDATA[
 case $1 of
-  Just $2 ->
-    $3
-  Nothing ->
-    $4
+	Just $2 ->
+		$3
+	Nothing ->
+		$4
 ]]>
-  </content>
-  <description>ELM - case &lt;Maybe&gt; of Just &lt;x&gt; -&gt; &lt;action&gt;</description>
-
-  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>cofm</tabTrigger>
-  <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>source.elm</scope>
+	</content>
+	<description>case … of (Maybe)</description>
+	<tabTrigger>cofm</tabTrigger>
+	<scope>source.elm</scope>
 </snippet>
